@@ -39,6 +39,18 @@ h2 {
   color: #647080;
 }
 
+.language-switch {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.language-switch span {
+  color: #647080;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
